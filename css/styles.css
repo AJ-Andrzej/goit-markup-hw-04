@@ -1,0 +1,305 @@
+/* =======COMMON STAYLES========= */
+button{
+    cursor: pointer;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+        background-color: #FFF;
+        font-size: 16px;
+        color: #434455;
+}
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-name {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* =======/COMMON STAYLES========= */
+
+
+/* =======HEADER STAYLES========= */
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-page{
+border-bottom: 1px solid #e7e9fc
+}
+  
+
+.menu{
+    display: flex;
+    gap: 40px; 
+}
+
+.logo{
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+.logo-web{
+    color: #2e2f42;
+}
+
+.contacts-list{
+    display: flex;
+    gap: 40px;
+}
+.contacts{
+font-style: normal;
+}
+
+.menu-link{
+    display: block;
+    color:#2E2F42;
+    /* font-size: 16px; */
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color:#404BBF;
+}
+.contact-link{
+    color: #434455;
+    /* font-size: 16px; */
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.contact-link:hover,
+.contact-link:focus{
+    color:#404BBF;
+
+}
+
+ /* =======/HEADER STAYLES========= */
+
+ /* =======Effective Solutions========= */
+
+.top-section{
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-bottom: 60px;
+}
+.main-titel{
+    color:#FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+.order-bt{
+    display: block;
+    font-family: inherit;
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    height: 56px;
+    border: none;
+    min-width: 169px
+
+
+}
+
+.order-bt:hover,
+.order-bt:focus{
+    background-color: #404BBF;
+}
+
+/* =======/Effective Solutions========= */
+
+/* =======Strengths========= */
+
+.section-strengths{
+    padding: 120px 0
+}
+.strenghts-list{
+    display: flex;
+    gap: 24px;
+}
+
+.strenghts-list-item{
+width: calc((100% - 72px) / 4);
+}
+
+
+.strengths-name{
+    margin-bottom: 8px;
+}
+
+/* =======/Strengths========= */
+
+/* =======Team========= */
+.team{
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+.team-list-item {
+    width: (calc(100% - 72px) / 4);
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.name-position{
+    padding: 32px 0 32px;
+}
+
+.name{
+    margin-bottom: 8px;
+}
+.product-name{
+    margin-bottom: 8px;
+}
+/* =======Team========= */
+
+/* =======Portfolio========= */
+.section-portofolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.portfolio-description{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.portfolio-list-item{
+    width: calc((100% - 48px) / 3);
+}
+/* =======/Portfolio========= */
+
+/* =======Footer========= */
+.page-footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.logo-footer{
+    display: inline-block;
+        color: #4d5ae5;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+         font-weight: 700;
+        line-height: 1.17;
+         letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 16px;
+}
+.studio-footer{
+    color: #f4f4fd;
+}
+.text-footer{
+    color: #F4F4FD;
+    max-width: 264px;
+}
+/* =======/Footer========= */
