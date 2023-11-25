@@ -309,7 +309,7 @@ width: calc((100% - 72px) / 4);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.employee-social-list-link:hover .
+.employee-social-list-link:hover,
 .employee-social-list-link:focus{
     background-color: #404BBF;
 }
@@ -374,6 +374,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .webstudio-fotter{
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .logo-footer{
@@ -397,6 +398,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-conteiner{
     display: flex;
+    align-items: baseline;
 }
 .social-list{
     display: flex;
@@ -435,6 +437,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color:#FFFFFF;
         font-style: normal;
         font-weight: 500;
+        margin-bottom: 16px;
 }
 
 
