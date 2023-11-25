@@ -244,6 +244,9 @@ width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
 }
 .icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
     border-radius: 4px;
