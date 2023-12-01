@@ -419,11 +419,7 @@ padding: 40px 32px;
     margin-top: 16px;
 }
 
-.social-links{
-    margin-left: 120px;
-    margin-right: auto;
-    margin-bottom: 32px;
-}
+
 .social-list-link{
     display: flex;
     justify-content: center;
